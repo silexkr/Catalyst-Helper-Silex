@@ -3,6 +3,7 @@ Release history for Catalyst-Helper-Silex
 {{ $NEXT }}
     First version, released on unsuspecting world.
     Add helper module
+        -  Catalyst::Helper::Silex::Fey::ORM
         -  Catalyst::Helper::Silex::PSGI
         -  Catalyst::Helper::Silex::YAML
 
