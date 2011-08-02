@@ -1,47 +1,30 @@
 package Catalyst::Helper::Silex;
-# ABSTRACT: ...
+# ABSTRACT: Silex helper to create catalyst application
 
-use Moose;
-use MooseX::SemiAffordanceAccessor;
-use MooseX::StrictConstructor;
-use namespace::autoclean;
-use autodie;
+use strict;
+use warnings;
+use File::Spec;
 
-has 'foo' => (
-    is       => 'ro',
-    isa      => 'Str',
-    required => 1,
-);
-
-sub bar {
-}
-
-__PACKAGE__->meta->make_immutable;
-no Moose;
 1;
-__END__
-
 
 =head1 SYNOPSIS
 
-...
-
+    > script/myapp_create.pl Silex::Fey::ORM
+    > script/myapp_create.pl Silex::PSGI
+    > script/myapp_create.pl Silex::YAML
 
 =head1 DESCRIPTION
 
-...
-
-
-=attr foo
-
-=attr ...
-
-=method bar
-
-=method ...
-
+This helper module is for Silex.
 
 =head1 SEE ALSO
 
+=over
+
+=item *
+
+L<Catalyst::Helper>
+
+=back
 
 =cut
