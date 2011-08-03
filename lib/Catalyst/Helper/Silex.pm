@@ -12,6 +12,11 @@ use File::Spec;
     > script/myapp_create.pl Silex::Fey::ORM
     > script/myapp_create.pl Silex::PSGI
     > script/myapp_create.pl Silex::YAML
+    > script/myapp_create.pl Silex::API
+
+and also available ARGS for implementation files
+
+    > script/myapp_create.pl Silex::API Foo Bar Baz
 
 =head1 DESCRIPTION
 
